@@ -1,0 +1,116 @@
+.Weather {
+  border-radius: 20px;
+  width: 700px;
+  padding: 15px;
+  margin: 100px 300px;
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+.Weather input {
+  border: 1px solid #e1b4eb;
+  border-radius: 2em 2em;
+  padding: 10px 12px;
+  width: 101%;
+  line-height: 2em;
+  margin: 15px auto;
+  background: white;
+}
+.Weather h1 {
+  font-size: 15px;
+  opacity: 0.9;
+  position: relative;
+  top: -90px;
+  left: -2px;
+}
+.Weather h2 {
+  font-size: 20px;
+  opacity: 0.9;
+  position: relative;
+  top: -1px;
+  left: 525px;
+}
+.Weather ul {
+  margin: 0 0 10px;
+  padding: 0;
+  position: relative;
+  top: -15px;
+}
+
+.Weather li {
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 500px;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+.Weather button:hover {
+  background: #fff;
+  cursor: pointer;
+  color: #000;
+}
+
+.Weather .temp {
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  right: 200px;
+  top: 145px;
+}
+.Weather .units {
+  font-size: 18px;
+  position: relative;
+  top: 95px;
+  right: 200px;
+}
+.Weather .citty {
+  font-size: 33px;
+  font-weight: bold;
+}
+.Weather .humidity,
+.wind {
+  color: #0b2bdf;
+  font-size: 15px;
+  font-weight: bold;
+}
+.Weather .current-button {
+  border: 1px solid #af4bc5;
+  background: #cb22d7;
+  color: #fff;
+  border-radius: 2em 2em;
+  padding: 10px 12px;
+  width: 100%;
+  line-height: 2em;
+  margin: 15px auto;
+  transition: all 200ms ease;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+.Weather .hum,
+.wnd {
+  position: relative;
+  top: -10px;
+  left: 480px;
+}
+.Weather .github-link {
+  text-decoration: none;
+}
+.Weather .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.Weather .icon {
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+.Weather .description {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.Weather a {
+  text-decoration: none;
+}
