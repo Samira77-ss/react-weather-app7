@@ -50,6 +50,9 @@
   cursor: pointer;
   color: #000;
 }
+.Weather a {
+  text-decoration: none;
+}
 
 .Weather .temp {
   font-size: 60px;
@@ -110,7 +113,4 @@
   left: 300px;
   font-weight: bold;
   font-size: 35px;
-}
-.Weather a {
-  text-decoration: none;
 }
