@@ -102,7 +102,7 @@
   color: rgb(33, 33, 33);
   cursor: default;
 }
-.Weather .icon {
+.Weather .icon canvas {
   position: relative;
   top: 120px;
   left: 50px;
