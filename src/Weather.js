@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
+import { ThreeDots } from "react-loader-spinner";
 import "./Weather.css";
 import Footer from "./Footer";
 export default function Weather(props) {
@@ -60,6 +61,19 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading....";
+    return (
+      <div className="loader">
+        <strong>Loading...</strong>
+        <ThreeDots
+          height="80"
+          width="80"
+          radius="9"
+          color="black"
+          ariaLabel="loading"
+          wrapperStyle
+          wrapperClass
+        />
+      </div>
+    );
   }
 }
