@@ -54,14 +54,14 @@
   text-decoration: none;
 }
 
-.Weather .temp {
+.weather.temp {
   font-size: 60px;
   font-weight: bold;
   position: relative;
   right: 200px;
   top: 145px;
 }
-.Weather .units {
+.weather.units {
   font-size: 18px;
   position: relative;
   top: 95px;
