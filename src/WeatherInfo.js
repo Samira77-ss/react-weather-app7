@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
       <h1>
         <span>
           {" "}
-          <FormattedDate date={props.data.date} />
+          <FormattedDate date={props.data.date} size={52} />
         </span>
       </h1>
       <ul>
