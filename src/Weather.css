@@ -75,18 +75,6 @@
   font-size: 15px;
   font-weight: bold;
 }
-.Weather .current-button {
-  border: 1px solid #af4bc5;
-  background: #cb22d7;
-  color: #fff;
-  border-radius: 2em 2em;
-  padding: 10px 12px;
-  width: 100%;
-  line-height: 2em;
-  margin: 15px auto;
-  transition: all 200ms ease;
-  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
-}
 .Weather .hum,
 .wnd {
   position: relative;
