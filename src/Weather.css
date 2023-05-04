@@ -1,15 +1,24 @@
+body {
+  background: radial-gradient(
+    circle at 7.4% 45.1%,
+    rgb(236, 206, 251) 0%,
+    rgb(205, 237, 246) 45.1%,
+    rgb(227, 251, 252) 78.4%,
+    rgb(230, 247, 235) 90%
+  );
+}
 .Weather {
-  border-radius: 20px;
+  border-radius: 25px;
   width: 700px;
   padding: 15px;
   margin: 100px 300px;
   background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  box-shadow: rgba(37, 39, 89, 0.5) 0px 8px 8px 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .Weather input {
-  border: 1px solid #e1b4eb;
+  border: 1px solid #630678;
   border-radius: 2em 2em;
   padding: 10px 12px;
   width: 101%;
@@ -22,9 +31,11 @@
   opacity: 0.9;
   position: relative;
   top: -130px;
-}
-.Weather h2 {
   font-size: 20px;
+}
+
+.Weather h2 {
+  font-size: 25px;
   opacity: 0.9;
   position: relative;
   top: -1px;
@@ -39,7 +50,7 @@
 
 .Weather li {
   opacity: 0.9;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500px;
   height: 19px;
   line-height: 1;
@@ -56,23 +67,23 @@
 
 .Weather .temp {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 550;
   position: relative;
   top: 80px;
 }
 .Weather .units {
-  font-size: 19px;
+  font-size: 20px;
   position: relative;
-  top: 40px;
+  top: 45px;
 }
 .Weather .citty {
-  font-size: 33px;
+  font-size: 35px;
   font-weight: bold;
 }
 .Weather .humidity,
 .wind {
   color: #0b2bdf;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 .Weather .hum,
@@ -98,4 +109,7 @@
   left: 280px;
   font-weight: bold;
   font-size: 30px;
+}
+.WeatherForecast-day {
+  font-size: 20px;
 }
